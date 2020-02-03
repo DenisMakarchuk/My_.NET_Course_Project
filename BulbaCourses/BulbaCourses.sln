@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbaCourses.Web", "BulbaCourses.Web\BulbaCourses.Web.csproj", "{B1F4A35F-4B42-4448-9577-CFD2E1EF83F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TextMaterials_Presentations", "TextMaterials_Presentations", "{D5D6A0D1-A27A-402B-8D0C-F9BE0804133E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbaCourses.TextMaterials_Presentations.Web", "BulbaCourses.TextMaterials_Presentations.Web\BulbaCourses.TextMaterials_Presentations.Web.csproj", "{DAE8514E-3D8F-49AC-8418-DFA1984226CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbaCourses.TextMaterials_Presentations.Logic", "BulbaCourses.TextMaterials_Presentations.Logic\BulbaCourses.TextMaterials_Presentations.Logic.csproj", "{6335F50B-20DF-493F-AFB0-02B09123521F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbaCourses.TextMaterials_Presentations.Data", "BulbaCourses.TextMaterials_Presentations.Data\BulbaCourses.TextMaterials_Presentations.Data.csproj", "{829CFF17-45EB-489F-A56D-FF3A4B4EFD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbaCourses.TextMaterials_Presentations_Tests", "BulbaCourses.TextMaterials_Presentations_Tests\BulbaCourses.TextMaterials_Presentations_Tests.csproj", "{2ED30113-FB36-4C90-AC80-A51FEE51BA37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1F4A35F-4B42-4448-9577-CFD2E1EF83F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F4A35F-4B42-4448-9577-CFD2E1EF83F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F4A35F-4B42-4448-9577-CFD2E1EF83F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F4A35F-4B42-4448-9577-CFD2E1EF83F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE8514E-3D8F-49AC-8418-DFA1984226CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE8514E-3D8F-49AC-8418-DFA1984226CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE8514E-3D8F-49AC-8418-DFA1984226CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE8514E-3D8F-49AC-8418-DFA1984226CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6335F50B-20DF-493F-AFB0-02B09123521F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6335F50B-20DF-493F-AFB0-02B09123521F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6335F50B-20DF-493F-AFB0-02B09123521F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6335F50B-20DF-493F-AFB0-02B09123521F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829CFF17-45EB-489F-A56D-FF3A4B4EFD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829CFF17-45EB-489F-A56D-FF3A4B4EFD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829CFF17-45EB-489F-A56D-FF3A4B4EFD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829CFF17-45EB-489F-A56D-FF3A4B4EFD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED30113-FB36-4C90-AC80-A51FEE51BA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED30113-FB36-4C90-AC80-A51FEE51BA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED30113-FB36-4C90-AC80-A51FEE51BA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED30113-FB36-4C90-AC80-A51FEE51BA37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE8514E-3D8F-49AC-8418-DFA1984226CD} = {D5D6A0D1-A27A-402B-8D0C-F9BE0804133E}
+		{6335F50B-20DF-493F-AFB0-02B09123521F} = {D5D6A0D1-A27A-402B-8D0C-F9BE0804133E}
+		{829CFF17-45EB-489F-A56D-FF3A4B4EFD42} = {D5D6A0D1-A27A-402B-8D0C-F9BE0804133E}
+		{2ED30113-FB36-4C90-AC80-A51FEE51BA37} = {D5D6A0D1-A27A-402B-8D0C-F9BE0804133E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {248D477B-280A-4E13-9AB8-4D9093A4EBF1}
+	EndGlobalSection
+EndGlobal
